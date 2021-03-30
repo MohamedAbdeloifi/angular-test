@@ -12,7 +12,5 @@ export class ProductAlertsComponent implements OnInit {
   @Output() notify = new EventEmitter();
   constructor() {}
 
-  ngOnInit() {
-    window.alert("You will be notify when the product goes on sale");
-  }
+  ngOnInit() {}
 }
